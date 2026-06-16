@@ -23,7 +23,7 @@ The objective was to distribute client traffic across two primary WAN connection
 * Static Routing
 * Policy Routing
 * NAT
-*Failover
+* Failover
 
 
 ## Key Features
@@ -66,7 +66,7 @@ After resolving the lab environment issues, the load balancing and failover mech
 
 
 ## Documentation
-Detailed configuration steps, screenshots, verification results, and implementation notes are available in Documentation.md.
+Detailed configuration steps, screenshots, verification results, and implementation notes are available in `Documentation.md`.
 
 >**Note**: The detailed documentation is currently written in Persian (Farsi).
 
