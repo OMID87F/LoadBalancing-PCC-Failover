@@ -19,35 +19,42 @@
 ## 🔹اقدامات و کانفیگ‌ها
 
 1. تنظیم IP Address اینترفیس‌ها⬇️
+
 ![MikroTik - IP Addresses](Sources/MikroTik%20-%20IP%20Addresses.png)
 
 2. ساخت Routing Tableهای`ISP2`و`ISP1`و نوشتن Route براشون⬇️
+
 ![MikroTik - Routing Tables & Routes](Sources/MikroTik%20-%20Routing%20Tables%20%26%20Routes.png)
 >این 2 روت تنها مخصوص ترافیکی هستن که از PCC مارک خورده باشن‼️
 
 
 3. نوشتن Default Routeهای اصلی⬇️
+
 ![MikroTik - Main Routes](Sources/MikroTik%20-%20Main%20Routes.png)
 >ترکیب`Distance`و`Check Gateway`باعث بوجود اومدن ساختار Failover میشه‼️
 
 
 4. تنظیم Mangle برای تقسیم ترافیک⬇️
+
 ![MikroTik - Mangle](Sources/MikroTik%20-%20Mangle.png)
 >برای اولین بار از PCC توی عمرم استفاده کردم‼️
 
 
 5. تنظیم NAT برای هر خروجی⬇️
+
 ![MikroTik - NAT](Sources/MikroTik%20-%20NAT.png)
 
 
 
 ## 🔹راستی آزمایی
 1. پینگ به آدرس اینترنتی (از کلاینت‌‌‌‌ها) و Counterهای Mangle Ruleها⬇️
+
 ![Tests - Ping & Mangle Counters](Sources/Tests%20-%20Ping%20%26%20Mangle%20Counters.png)
 >میبینیم که از هر مقدار پکت Connection خورده دقیقا همون مقدار Route شده✅
 
 
 2. بررسی کارکردن هردو ISP⬇️
+
 ![Tests -ISP1,ISP2](Sources/Tests%20-ISP1%2CISP2.png)>جفتشون همزمان کار میکنن ولی بیشتر`ISP2`پکت‌ها رو میگرفت‼️
 
 
